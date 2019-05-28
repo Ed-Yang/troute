@@ -1,5 +1,12 @@
 # Python3 traceroute
 
+## Installation
+
+python3 -m venv venv
+source ./venv/bin/activate
+pip install --upgrade pip
+pip install requests
+
 ## Example
 
 ```shell
@@ -24,3 +31,4 @@ traceroute to google.com (216.58.200.46), 64 hops max, 24 bytes data
  10  US - 209.85.245.255 (209.85.245.255) 7 ms 
      US - tsa01s08-in-f14.1e100.net (216.58.200.46) 963 ms 963 ms 
 ```
+
